@@ -1,0 +1,38 @@
+# Raw video data - NEVER commit, too large + licensing concerns
+data/raw/
+*.avi
+*.mov
+*.mat
+*.mp4
+
+# Preprocessed chunks - also too large for Git, lives on Kaggle Datasets
+*.npy
+*.h5
+*.hdf5
+
+# Model checkpoints / pretrained weights - large binary files
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# rPPG-Toolbox clone - tracked separately, not part of this repo's history
+rPPG-Toolbox/
+
+# Python environment / cache
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editor junk
+.DS_Store
+.vscode/settings.json
+
+# Results CAN be committed (they're small CSVs) - but exclude raw dumps if huge
+results/raw_dumps/
+
+# Secrets (if you ever add API keys, tokens, etc.)
+.env
+*.key

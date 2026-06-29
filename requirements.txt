@@ -1,0 +1,19 @@
+# Core
+torch>=1.13
+torchvision
+numpy
+pandas
+scipy
+PyYAML
+opencv-python
+mediapipe
+
+# rPPG-Toolbox dependencies (confirm against their requirements.txt once cloned -
+# this is a starting point, not exhaustive; toolbox may pin specific versions)
+matplotlib
+scikit-learn
+tqdm
+h5py
+
+# Analysis (Step 4)
+statsmodels   # for paired t-tests, more detailed stats than scipy alone
