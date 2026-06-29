@@ -47,7 +47,9 @@ not assumed.
 
 ## Status
 
-- [ ] Toolbox cloned and environment verified
+- [x] Toolbox cloned and environment verified (Python 3.8.20 venv; Mamba/causal-conv1d
+      dependencies removed from requirements.txt — not needed for DeepPhys/PhysNet/
+      EfficientPhys, and they require a CUDA build toolchain unavailable on Windows)
 - [ ] Pretrained checkpoints downloaded, training source confirmed
 - [ ] UBFC-rPPG pipeline validation run (compare against published benchmark)
 - [ ] MMPD access obtained
